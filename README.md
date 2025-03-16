@@ -1,0 +1,2 @@
+# ConsoleTriggerPlugin
+MC检测控制台输出自动执行命令插件
