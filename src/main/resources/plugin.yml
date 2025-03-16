@@ -1,0 +1,10 @@
+name: ConsoleTrigger
+main: com.example.ConsoleTriggerPlugin
+version: 1.2
+api-version: 1.21
+author: 寒泽陌
+
+commands:
+  ctpreload:
+    description: 重载插件配置
+    usage: /ctpreload
