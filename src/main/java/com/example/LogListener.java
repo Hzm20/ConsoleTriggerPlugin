@@ -124,7 +124,7 @@ public class LogListener implements Runnable {
             cooldowns.put(keyword, now);
             executeCommand(rule.command);
         } else {
-            plugin.getLogger().info("§e触发词 [" + keyword + "] 冷却中，剩余 " + (rule.cooldown - remaining) + "秒");
+            plugin.getLogger().info("§e触发词冷却中，剩余 " + (rule.cooldown - remaining) + "秒");
         }
     }
 
